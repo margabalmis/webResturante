@@ -1,0 +1,202 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(fondo.jpg);
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+img {
+    height: 14vh;
+    margin: 2vh 0vh 0vh 0vh;
+}
+header a{
+    text-decoration: none;
+}
+header a:hover{
+    transform: scale(1.01);
+    transition-duration: 0.2s;
+}
+header{
+    background-color: #d0e2e8;
+    color: #000300ff;
+    width: 100vw;
+    height: 25vh;
+}
+nav{
+    width: 100vw;
+    display: block;
+    height: 3vh;
+}
+ul{
+    width: 100vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0vh;
+    margin: 0vh;
+}
+li{
+    padding: 0.3vw;
+    margin: 1vw 2.5vw;
+    text-decoration: none;
+    color: #000300ff;
+   
+}
+.ubicacion{
+    border: solid #000300ff;
+    border-width: 2px 3px 1.5px 3.4px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%; 
+    background-color:  #fffafde8; 
+}
+.ubicacion:hover{
+    transform: none;
+}
+header li:hover{
+    border: solid #000300ff;
+    border-width: 2px 3px 1.5px 3.4px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;  
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    background-color:  #fffafde8;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.5vh;
+    border-width: 3px 4px 3px 5px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    color: #000300ff;
+}
+header div{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+.letras{
+    margin: 0vh;
+    width: 36vw;
+    height: 12vh;
+    align-self: center;
+
+}
+section{
+    display: flex;
+    width: 100vw;
+}
+iframe{
+    align-self: end;
+    width: 54vw;
+    height: 70vh;
+}
+.imagenes{
+    background-image: url(fondoSolAzul.jpg);
+    background-size: cover;
+}
+.fotoBar{
+    margin: 4vh 5vw 2vh 4vw;
+    width: 31vw;
+    height: 24vh;
+    border: 5px solid #000300ff;
+    border: solid #000300ff;
+    border-width: 8px 5px 6px 4px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    background-size: cover;
+    background-image:url(fotoBarRamen.jpg) ;  
+}
+.fotoBar2{
+    margin: 3vh 3vw 8vh 10vw;
+    width: 32vw;
+    height: 28vh;
+    border: 5px solid #000300ff;
+    border: solid #000300ff;
+    border-width: 6px 8px 5px 4px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    background-size: cover;
+    background-image:url(fotoBar2.jpg) ;  
+}
+footer{
+    color:  #00a9b1ff;
+    height: 30vh;
+    width: 100vw;
+    background-color: rgba(0, 3, 0, 0.897);
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gatito{
+    height: 11vh;
+    width: auto;
+}
+.gatito:hover{
+    transform: scale(1.06);
+    transition: 0.4s;
+}
+footer img{
+    padding: 1vh 2vw;
+    width: 2.5vw;
+}
+.logo:hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+footer a{
+    padding: 0vh 2vw;
+    font-size: 1.5vh;
+    text-decoration: none;
+    color: #00a9b1ff;
+}
+.navfooter li:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+@media screen and (max-width: 900px){
+    section{
+        display: flex;
+        flex-direction: column;
+    } 
+    iframe{
+        width: 100vw;
+    }
+    footer nav{
+        display: none;
+    }
+    nav a{
+        font-size: 1.7vh;
+        padding:0.5vh;
+    }
+    nav{
+        margin: 0vh 0.5vh;
+    }
+    footer img{
+        padding: 1vh 2vw;
+        width: 8vw;
+    }
+    img{
+        width: 18vw;
+        height: 14vh;
+    }
+    .gatito{
+        width: 22vw;
+        height: 11vh;
+    }
+    footer{
+        height: 22vh;
+    }
+    .fotoBar{
+        display: none;
+    }
+    .fotoBar2{
+        display: none;
+    }
+    li{
+        padding: 0.7vw;
+        margin: 5vw 1.8vw 8vw 0vw;
+    }
+    .letras{
+        margin: 0vh;
+        width: 48vw;
+        height: 12vh;
+    }
+  

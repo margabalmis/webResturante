@@ -1,0 +1,220 @@
+body{
+    margin: 0px;
+    background-image: url(fondo.jpg);
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+img {
+    height: 20vh;
+}
+header{
+    background-color: #ffe2e7ff;
+    color: #000300ff;
+    width: 100vw;
+    height: 25vh;
+}
+nav{
+    display: block;
+    height: 3vh;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0vh 25vh;
+    margin: 0vh;
+}
+li{
+    padding: 0.3vw;
+    margin: 1vw 2.5vw;
+    text-decoration: none;
+    color: #000300ff;
+   
+}
+header li:hover{
+    border: solid #000300ff;
+    border-width: 2px 3px 1.5px 3.4px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;  
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    background-color:  #fffafde8;
+}
+nav a{
+    font-size: 1.5vh;
+    border-width: 3px 4px 3px 5px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    color: #000300ff;
+}
+header div{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+.letras{
+    margin: 0vh;
+    width: 42vw;
+    height: 18vh;
+    align-self: center;
+
+}
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh 3vh;
+}
+article div{
+    margin: 2vh;
+    border: solid;
+    background-color: rgb(247, 244, 241);
+    border-width: 8px 10px 8px 7px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 3.5vh;
+    color: #000300ff;
+}
+a span{
+    border: 5px solid #000300ff;
+    padding: 0.5vh 1.5vh;
+    margin: 3.5vh;
+    background-color: rgba(240, 51, 41, 0.808);
+    -webkit-box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.95);
+    -moz-box-shadow:    5px 5px 3px 0px rgba(0, 0, 0, 0.95);
+    box-shadow:         5px 5px 3px 0px rgba(0, 0, 0, 0.95);
+
+}
+section{
+    margin: 8vh;
+}
+.menu:hover{
+    transform: scale(1.02);
+    background-image: linear-gradient(
+        rgba(255, 226, 231, 0.87),
+        rgba(0, 168, 177, 0.541)
+    ),
+    url(menu.jpg); 
+}
+.ubicacion:hover{
+    transform: scale(1.02);
+    background-image: linear-gradient(
+        rgba(255, 226, 231, 0.87),
+        rgba(0, 168, 177, 0.541)
+    ),
+    url(ubicacion.png); 
+}
+.galeria:hover{
+    transform: scale(1.02);
+    background-image: linear-gradient(
+        rgba(255, 226, 231, 0.87),
+        rgba(0, 168, 177, 0.541)
+    ),
+    url(camara.jpg); 
+}
+.reservas:hover{
+    transform: scale(1.02);
+    background-image: linear-gradient(
+        rgba(255, 226, 231, 0.87),
+        rgba(0, 168, 177, 0.541)
+    ),
+    url(reservas.png); 
+
+}
+.menu{
+    transition-duration: 0.4s;
+    margin: 1vw;
+    border-width: 5px 1px 8px 7px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    width: 45vw;
+    max-width: 700px;
+    height: 38vh;
+    background-image:url(menu.jpg) ;
+    background-size: cover; 
+    border: solid #000300ff;
+}
+.ubicacion{
+    transition-duration: 0.4s;
+    margin: 1.5vw;
+    border-width: 5px 8px 7px 7px;
+    border-radius:92% 5% 94% 8%/6% 96% 8% 94%;
+    width: 40vw;
+    max-width: 700px;
+    height: 45vh;
+    background-image: url(ubicacion.png);
+    background-size: cover;
+    border: solid #000300ff;
+}
+.galeria{
+    transition-duration: 0.4s;
+    margin: 1.5vw;;
+    width: 35vw;
+    max-width: 600px;
+    height: 50vh;
+    background-image: url(camara.jpg);
+    background-size: cover;
+    border-width: 7px 5px 8px 7px;
+    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    border: solid #000300ff;
+}
+.reservas{
+    transition-duration: 0.4s;
+    margin: 1.5vw;
+    width: 40vw;
+    max-width: 600px;
+    height: 40vh;
+    background-image: url(reservas.png);
+    border-width: 5px 6px 8px 7px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    border: solid #000300ff;
+    background-size: cover;
+    
+}
+footer{
+    color:  #00a9b1ff;
+    height: 30vh;
+    width: 100vw;
+    background-color: rgba(0, 3, 0, 0.897);
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gatito{
+    width: 15vh;
+    height: 11vh;
+
+}
+a img{
+    padding: 1vh 0vh;
+    width: 2.5vh;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+footer a{
+    margin: 0vh 2vh;
+    font-size: 1.5vh;
+    text-decoration: none;
+    color: #00a9b1ff;
+    transition: 0.4s;
+}
+.navfooter a:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width: 900px){
+    article{
+        display: flex;
+        flex-direction: column;
+    } 
+        nav{
+        display: none;
+    }
+    .menu, .reservas, .galeria,.ubicacion{
+        width: 90vw;
+    }
